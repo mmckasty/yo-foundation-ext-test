@@ -1,0 +1,10 @@
+{
+  "name": "lc",
+  "version": "0.0.0",
+  "dependencies": {
+    "foundation": "~4.0.0",
+    "jquery": "~2.0.2",
+    "backbone": "~1.0.0",
+    "requirejs": "~2.1.6"
+  }
+}
