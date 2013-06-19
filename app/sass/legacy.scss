@@ -2,23 +2,6 @@ footer { height: 50px;}
 
 .thumb { @extend .show-for-medium-up; }
 
-html, body {
-  height: 100%;
-}
+.tile-title {}
 
-.body {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
-}
-.body:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  /* .push must be the same height as footer */
-  height: 142px; 
-}
-.site-footer {
-  background: orange;
-}
+.panel:hover {@extend .callout}
