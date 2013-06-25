@@ -1,7 +1,14 @@
+
 footer { height: 50px;}
+$smallest-screen: emCalc(481px);
+$smallest: "only screen and (max-width:"#{$smallest-screen}")";
 
-.thumb { @extend .show-for-medium-up; }
+@media #{$smallest}{
+	.thumb { visibility:hidden; display:none;}
+}
 
-.tile-title {}
+.tile-title { }
 
 .panel:hover {@extend .callout}
+
+.board-header h3 {padding-left: .5em;}

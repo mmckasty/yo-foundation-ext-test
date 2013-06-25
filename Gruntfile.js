@@ -22,7 +22,7 @@
     } catch (_error) {
       e = _error;
     }
-    grunt.loadNpmTasks('grunt-heroku-deploy');
+
     grunt.initConfig({
       yeoman: yeoman,
       watch: {
@@ -216,6 +216,7 @@
 	  ]
 	}
       }
+
     });
     grunt.renameTask('regarde', 'watch');
     grunt.registerTask('server', ['clean:server', 'coffee:dist', 'compass:server', 'livereload-start', 'connect:livereload', 'open', 'watch']);
